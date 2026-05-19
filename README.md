@@ -3,6 +3,11 @@
 > 放送アーカイブを、もっと構造化されたデータへ。  
 > 방송 아카이브를 구조화된 데이터 시스템으로.
 
+## Dashboard Preview
+
+![Dashboard](docs/screenshots/dashboard.png)
+
+
 A metadata-driven broadcast archive analysis platform designed for secure NAS-based media environments.
 
 ---
