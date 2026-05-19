@@ -1,0 +1,41 @@
+{
+  "detected_files": 4,
+  "coverage": {
+    "2026-05-19": {
+      "clean_count": 3,
+      "oa_count": 1,
+      "missing_slots": [
+        "19:00"
+      ],
+      "fallback_used": true,
+      "coverage_score": 75
+    }
+  },
+  "anomalies": [
+    {
+      "date": "2026-05-19",
+      "type": "MISSING_SLOT",
+      "severity": "HIGH",
+      "message": "Required broadcast slot is missing: 19:00"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "FALLBACK_USED",
+      "severity": "MEDIUM",
+      "message": "Fallback recording was used for one or more slots."
+    },
+    {
+      "date": "2026-05-19",
+      "type": "VERSION_IMBALANCE",
+      "severity": "LOW",
+      "message": "CLEAN/OA count mismatch: CLEAN=3, OA=1"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "UNEXPECTED_TIME",
+      "severity": "MEDIUM",
+      "message": "Unexpected recording time detected: 22:33",
+      "filename": "202605192233_CLEAN.mp4"
+    }
+  ]
+}

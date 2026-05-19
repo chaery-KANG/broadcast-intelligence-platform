@@ -1,3 +1,5 @@
+import json
+
 from pathlib import Path
 
 from app.services.filename_parser import parse_broadcast_filename
@@ -39,3 +41,14 @@ if __name__ == "__main__":
     print("\n=== ANOMALIES ===")
     for anomaly in anomalies:
         print(anomaly)
+
+    output = {
+        "detected_files": len(files),
+        "coverage": coverage,
+        "anomalies": anomalies,
+    }
+
+    with open("reports/archive_report.json", "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+    print("\nReport saved to reports/archive_report.json")
