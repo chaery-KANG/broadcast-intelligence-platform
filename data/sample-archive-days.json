@@ -1,0 +1,42 @@
+[
+  {
+    "date": "2026-05-01",
+    "cleanCount": 17,
+    "oaCount": 15,
+    "total": 32,
+    "cleanSlots": { "05": true, "12": true, "19": true, "21": true },
+    "oaSlots": { "05": true, "12": true, "19": true, "21": true },
+    "fallbackSlots": {},
+    "unrecognizedCount": 0
+  },
+  {
+    "date": "2026-05-02",
+    "cleanCount": 12,
+    "oaCount": 9,
+    "total": 21,
+    "cleanSlots": { "05": true, "12": true, "19": false, "21": true },
+    "oaSlots": { "05": true, "12": false, "19": true, "21": true },
+    "fallbackSlots": { "21": true },
+    "unrecognizedCount": 1
+  },
+  {
+    "date": "2026-05-03",
+    "cleanCount": 16,
+    "oaCount": 14,
+    "total": 30,
+    "cleanSlots": { "05": true, "12": true, "19": true, "21": true },
+    "oaSlots": { "05": true, "12": true, "19": true, "21": true },
+    "fallbackSlots": {},
+    "unrecognizedCount": 0
+  },
+  {
+    "date": "2026-05-04",
+    "cleanCount": 3,
+    "oaCount": 2,
+    "total": 5,
+    "cleanSlots": { "05": true, "12": false, "19": false, "21": false },
+    "oaSlots": { "05": false, "12": false, "19": false, "21": false },
+    "fallbackSlots": {},
+    "unrecognizedCount": 4
+  }
+]
