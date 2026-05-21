@@ -193,3 +193,16 @@ The project is continuously updated with:
 Long-term goal:
 
 > Build an intelligent media archive assistant capable of understanding, validating, and monitoring broadcast recording environments automatically.
+
+## Archive Health Benchmark
+
+This project includes an experimental benchmark framework for intelligent broadcast archive monitoring.
+
+The system evaluates archive integrity using temporal consistency metrics, missing-slot probability, fallback dependency, and anomaly-based health scoring.
+
+## Archive Health Benchmark
+
+This project includes an experimental benchmark framework for intelligent broadcast archive monitoring.
+
+The system evaluates archive integrity using temporal consistency metrics, missing-slot probability, fallback dependency, and anomaly-based health scoring.
+
